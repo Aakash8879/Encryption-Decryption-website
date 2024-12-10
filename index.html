@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Encryption and Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Encryption and Decryption</h1>
+        
+        <label for="key">Enter Key (Number):</label>
+        <input type="number" id="key" placeholder="Enter a key (e.g., 3)" />
+        
+        <label for="message">Enter Message:</label>
+        <textarea id="message" placeholder="Type your message..."></textarea>
+        
+        <div class="buttons">
+            <button onclick="encryptMessage()">Encrypt Decrypt</button>
+            <button onclick="clearFields()">Clear</button>
+        </div>
+        
+        <h3>Output:</h3>
+        <div id="output" class="output-box"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
