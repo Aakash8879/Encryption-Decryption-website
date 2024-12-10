@@ -22,7 +22,7 @@ function encryptMessage() {
         return char;
     }).join("");
 
-    displayOutput("Encrypted Message: " + encrypted);
+    displayOutput("Lock Message: " + encrypted);
 }
 
 // Decrypt a message using a Caesar Cipher
@@ -49,7 +49,7 @@ function decryptMessage() {
         return char;
     }).join("");
 
-    displayOutput("Decrypted Message: " + decrypted);
+    displayOutput("Unlock Message: " + decrypted);
 }
 
 // Clear input fields and output
